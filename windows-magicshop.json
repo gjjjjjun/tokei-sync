@@ -78,6 +78,16 @@
   "codex": {
     "ranges": {
       "today": {
+        "hit": 0.0,
+        "in": 0,
+        "cached": 0,
+        "out": 0,
+        "reason": 0,
+        "cost": 0.0,
+        "sessions": 0,
+        "models": []
+      },
+      "yesterday": {
         "hit": 92.80185511973549,
         "in": 180784,
         "cached": 2330752,
@@ -93,32 +103,6 @@
             "cw": 0,
             "reason": 5090,
             "cost": 4.973392000000001,
-            "cost_cny": 0.0,
-            "credits": 0.0,
-            "pin": 10.0,
-            "pout": 50.0,
-            "pcr": 1.0,
-            "name": "GPT-6 Astra",
-            "model_id": "openai/gpt-6-astra"
-          }
-        ]
-      },
-      "yesterday": {
-        "hit": 92.43117715689714,
-        "in": 1170103,
-        "cached": 14289408,
-        "out": 53145,
-        "reason": 15860,
-        "cost": 28.647688,
-        "sessions": 11,
-        "models": [
-          {
-            "in": 1170103,
-            "out": 53145,
-            "cr": 14289408,
-            "cw": 0,
-            "reason": 15860,
-            "cost": 28.647688,
             "cost_cny": 0.0,
             "credits": 0.0,
             "pin": 10.0,
@@ -187,7 +171,7 @@
         "cached": 657821056,
         "out": 3284420,
         "reason": 884227,
-        "cost": 1056.2867935999998,
+        "cost": 1056.2867936,
         "sessions": 41,
         "models": [
           {
@@ -228,7 +212,7 @@
         "cached": 676329088,
         "out": 3468525,
         "reason": 934492,
-        "cost": 1095.2636155999996,
+        "cost": 1095.2636155999999,
         "sessions": 42,
         "models": [
           {
@@ -269,7 +253,7 @@
         "cached": 676329088,
         "out": 3468525,
         "reason": 934492,
-        "cost": 1095.2636155999996,
+        "cost": 1095.2636155999999,
         "sessions": 42,
         "models": [
           {
@@ -2750,15 +2734,15 @@
     }
   },
   "_device": "windows-magicshop",
-  "_ts": 1793374464,
+  "_ts": 1793376279,
   "_range_bounds": {
     "today": {
-      "start": "2026-10-30",
-      "end": "2026-10-31"
+      "start": "2026-10-31",
+      "end": "2026-11-01"
     },
     "yesterday": {
-      "start": "2026-10-29",
-      "end": "2026-10-30"
+      "start": "2026-10-30",
+      "end": "2026-10-31"
     },
     "week": {
       "start": "2026-10-26",
