@@ -78,6 +78,16 @@
   "codex": {
     "ranges": {
       "today": {
+        "hit": 0.0,
+        "in": 0,
+        "cached": 0,
+        "out": 0,
+        "reason": 0,
+        "cost": 0.0,
+        "sessions": 0,
+        "models": []
+      },
+      "yesterday": {
         "hit": 86.96680212326622,
         "in": 305809,
         "cached": 2040576,
@@ -103,39 +113,13 @@
           }
         ]
       },
-      "yesterday": {
-        "hit": 92.80185511973549,
-        "in": 180784,
-        "cached": 2330752,
-        "out": 16696,
-        "reason": 5090,
-        "cost": 4.973392000000001,
-        "sessions": 2,
-        "models": [
-          {
-            "in": 180784,
-            "out": 16696,
-            "cr": 2330752,
-            "cw": 0,
-            "reason": 5090,
-            "cost": 4.973392000000001,
-            "cost_cny": 0.0,
-            "credits": 0.0,
-            "pin": 10.0,
-            "pout": 50.0,
-            "pcr": 1.0,
-            "name": "GPT-6 Astra",
-            "model_id": "openai/gpt-6-astra"
-          }
-        ]
-      },
       "week": {
         "hit": 94.16177562152286,
         "in": 4567693,
         "cached": 73670016,
         "out": 401124,
         "reason": 110552,
-        "cost": 139.403146,
+        "cost": 139.40314599999996,
         "sessions": 21,
         "models": [
           {
@@ -144,7 +128,7 @@
             "cr": 73670016,
             "cw": 0,
             "reason": 110552,
-            "cost": 139.403146,
+            "cost": 139.40314599999996,
             "cost_cny": 0.0,
             "credits": 0.0,
             "pin": 10.0,
@@ -182,45 +166,14 @@
         ]
       },
       "month": {
-        "hit": 96.06288591193804,
-        "in": 27044269,
-        "cached": 659861632,
-        "out": 3294573,
-        "reason": 887555,
-        "cost": 1061.8931096,
-        "sessions": 36,
-        "models": [
-          {
-            "in": 26146525,
-            "out": 3150567,
-            "cr": 637419776,
-            "cw": 0,
-            "reason": 838569,
-            "cost": 1056.4133759999997,
-            "cost_cny": 0.0,
-            "credits": 0.0,
-            "pin": 10.0,
-            "pout": 50.0,
-            "pcr": 1.0,
-            "name": "GPT-6 Astra",
-            "model_id": "openai/gpt-6-astra"
-          },
-          {
-            "in": 897744,
-            "out": 144006,
-            "cr": 22441856,
-            "cw": 0,
-            "reason": 48986,
-            "cost": 5.4797336,
-            "cost_cny": 0.0,
-            "credits": 0.0,
-            "pin": 2.0,
-            "pout": 10.0,
-            "pcr": 0.1,
-            "name": "GPT-6.1 Sol",
-            "model_id": "openai/gpt-6.1-sol"
-          }
-        ]
+        "hit": 0.0,
+        "in": 0,
+        "cached": 0,
+        "out": 0,
+        "reason": 0,
+        "cost": 0.0,
+        "sessions": 0,
+        "models": []
       },
       "year": {
         "hit": 96.01287803139809,
@@ -237,7 +190,7 @@
             "cr": 655927808,
             "cw": 0,
             "reason": 888834,
-            "cost": 1095.3901979999996,
+            "cost": 1095.3901979999998,
             "cost_cny": 0.0,
             "credits": 0.0,
             "pin": 10.0,
@@ -252,7 +205,7 @@
             "cr": 22441856,
             "cw": 0,
             "reason": 48986,
-            "cost": 5.4797336,
+            "cost": 5.479733599999999,
             "cost_cny": 0.0,
             "credits": 0.0,
             "pin": 2.0,
@@ -278,7 +231,7 @@
             "cr": 655927808,
             "cw": 0,
             "reason": 888834,
-            "cost": 1095.3901979999996,
+            "cost": 1095.3901979999998,
             "cost_cny": 0.0,
             "credits": 0.0,
             "pin": 10.0,
@@ -293,7 +246,7 @@
             "cr": 22441856,
             "cw": 0,
             "reason": 48986,
-            "cost": 5.4797336,
+            "cost": 5.479733599999999,
             "cost_cny": 0.0,
             "credits": 0.0,
             "pin": 2.0,
@@ -747,12 +700,12 @@
       "month": {
         "in": 0,
         "out": 0,
-        "sessions": 5,
-        "calls": 18,
-        "sub_agents": 3,
-        "turns": 161,
-        "duration": 2837532,
-        "ctx": 33.397441176470586,
+        "sessions": 0,
+        "calls": 0,
+        "sub_agents": 0,
+        "turns": 0,
+        "duration": 0,
+        "ctx": 0.0,
         "models": []
       },
       "year": {
@@ -2750,15 +2703,15 @@
     }
   },
   "_device": "windows-magicshop",
-  "_ts": 1793461856,
+  "_ts": 1793463674,
   "_range_bounds": {
     "today": {
-      "start": "2026-10-31",
-      "end": "2026-11-01"
+      "start": "2026-11-01",
+      "end": "2026-11-02"
     },
     "yesterday": {
-      "start": "2026-10-30",
-      "end": "2026-10-31"
+      "start": "2026-10-31",
+      "end": "2026-11-01"
     },
     "week": {
       "start": "2026-10-26",
@@ -2769,8 +2722,8 @@
       "end": "2026-10-26"
     },
     "month": {
-      "start": "2026-10-01",
-      "end": "2026-11-01"
+      "start": "2026-11-01",
+      "end": "2026-12-01"
     },
     "year": {
       "start": "2026-01-01",
