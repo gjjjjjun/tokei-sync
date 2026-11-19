@@ -78,6 +78,16 @@
   "codex": {
     "ranges": {
       "today": {
+        "hit": 0.0,
+        "in": 0,
+        "cached": 0,
+        "out": 0,
+        "reason": 0,
+        "cost": 0.0,
+        "sessions": 0,
+        "models": []
+      },
+      "yesterday": {
         "hit": 98.2438475698129,
         "in": 343387,
         "cached": 19209984,
@@ -93,32 +103,6 @@
             "cw": 0,
             "reason": 17282,
             "cost": 25.185004000000003,
-            "cost_cny": 0.0,
-            "credits": 0.0,
-            "pin": 10.0,
-            "pout": 50.0,
-            "pcr": 1.0,
-            "name": "GPT-6 Astra",
-            "model_id": "openai/gpt-6-astra"
-          }
-        ]
-      },
-      "yesterday": {
-        "hit": 92.66585842396198,
-        "in": 249661,
-        "cached": 3154432,
-        "out": 16612,
-        "reason": 6661,
-        "cost": 6.481642,
-        "sessions": 4,
-        "models": [
-          {
-            "in": 249661,
-            "out": 16612,
-            "cr": 3154432,
-            "cw": 0,
-            "reason": 6661,
-            "cost": 6.481642,
             "cost_cny": 0.0,
             "credits": 0.0,
             "pin": 10.0,
@@ -178,7 +162,7 @@
         "out": 289863,
         "reason": 68779,
         "cost": 89.02855600000001,
-        "sessions": 13,
+        "sessions": 6,
         "models": [
           {
             "in": 2659351,
@@ -219,8 +203,8 @@
         "cached": 222506624,
         "out": 1128510,
         "reason": 290461,
-        "cost": 361.898062,
-        "sessions": 29,
+        "cost": 361.89806199999987,
+        "sessions": 22,
         "models": [
           {
             "in": 8274631,
@@ -228,7 +212,7 @@
             "cr": 222330240,
             "cw": 0,
             "reason": 289595,
-            "cost": 361.41859999999997,
+            "cost": 361.41859999999986,
             "cost_cny": 0.0,
             "credits": 0.0,
             "pin": 10.0,
@@ -262,7 +246,7 @@
         "out": 4608648,
         "reason": 1228325,
         "cost": 1463.4127715999996,
-        "sessions": 29,
+        "sessions": 23,
         "models": [
           {
             "in": 35581891,
@@ -270,7 +254,7 @@
             "cr": 878486016,
             "cw": 0,
             "reason": 1178473,
-            "cost": 1457.4535759999994,
+            "cost": 1457.4535759999992,
             "cost_cny": 0.0,
             "credits": 0.0,
             "pin": 10.0,
@@ -285,7 +269,7 @@
             "cr": 22441856,
             "cw": 0,
             "reason": 48986,
-            "cost": 5.4797336,
+            "cost": 5.479733599999999,
             "cost_cny": 0.0,
             "credits": 0.0,
             "pin": 2.0,
@@ -319,7 +303,7 @@
         "out": 4608648,
         "reason": 1228325,
         "cost": 1463.4127715999996,
-        "sessions": 29,
+        "sessions": 23,
         "models": [
           {
             "in": 35581891,
@@ -327,7 +311,7 @@
             "cr": 878486016,
             "cw": 0,
             "reason": 1178473,
-            "cost": 1457.4535759999994,
+            "cost": 1457.4535759999992,
             "cost_cny": 0.0,
             "credits": 0.0,
             "pin": 10.0,
@@ -342,7 +326,7 @@
             "cr": 22441856,
             "cw": 0,
             "reason": 48986,
-            "cost": 5.4797336,
+            "cost": 5.479733599999999,
             "cost_cny": 0.0,
             "credits": 0.0,
             "pin": 2.0,
@@ -446,6 +430,16 @@
   "gemini": {
     "ranges": {
       "today": {
+        "hit": 0.0,
+        "in": 0,
+        "out": 0,
+        "cached": 0,
+        "thoughts": 0,
+        "cost": 0.0,
+        "sessions": 0,
+        "models": []
+      },
+      "yesterday": {
         "hit": 92.16734963695637,
         "in": 2015705,
         "out": 160087,
@@ -460,29 +454,6 @@
             "cached": 23718943,
             "thoughts": 173814,
             "cost": 9.586508,
-            "pin": 1.5,
-            "pout": 9.0,
-            "pcr": 0.15,
-            "name": "Gemini 4 Carbon",
-            "pref": "Gemini 3.5 Flash"
-          }
-        ]
-      },
-      "yesterday": {
-        "hit": 87.138348846548,
-        "in": 1272509,
-        "out": 66861,
-        "cached": 8621314,
-        "thoughts": 35067,
-        "cost": 4.119313,
-        "sessions": 1,
-        "models": [
-          {
-            "in": 1272509,
-            "out": 66861,
-            "cached": 8621314,
-            "thoughts": 35067,
-            "cost": 4.119313,
             "pin": 1.5,
             "pout": 9.0,
             "pcr": 0.15,
@@ -846,23 +817,23 @@
       "today": {
         "in": 0,
         "out": 0,
-        "sessions": 1,
-        "calls": 4,
-        "sub_agents": 1,
-        "turns": 50,
-        "duration": 1916941,
-        "ctx": 68.7175,
-        "models": []
-      },
-      "yesterday": {
-        "in": 0,
-        "out": 0,
         "sessions": 0,
         "calls": 0,
         "sub_agents": 0,
         "turns": 0,
         "duration": 0,
         "ctx": 0.0,
+        "models": []
+      },
+      "yesterday": {
+        "in": 0,
+        "out": 0,
+        "sessions": 1,
+        "calls": 4,
+        "sub_agents": 1,
+        "turns": 50,
+        "duration": 1916941,
+        "ctx": 68.7175,
         "models": []
       },
       "week": {
@@ -2893,15 +2864,15 @@
     }
   },
   "_device": "windows-magicshop",
-  "_ts": 1795016662,
+  "_ts": 1795099181,
   "_range_bounds": {
     "today": {
-      "start": "2026-11-18",
-      "end": "2026-11-19"
+      "start": "2026-11-19",
+      "end": "2026-11-20"
     },
     "yesterday": {
-      "start": "2026-11-17",
-      "end": "2026-11-18"
+      "start": "2026-11-18",
+      "end": "2026-11-19"
     },
     "week": {
       "start": "2026-11-16",
